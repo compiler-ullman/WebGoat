@@ -27,10 +27,6 @@
       <url>https://www.gnu.org/licenses/gpl-2.0.txt</url>
     </license>
   </licenses>
-<properties>
-  <sonar.organization>compiler-ullman</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
   <developers>
     <developer>
       <id>mayhew64</id>
@@ -85,8 +81,6 @@
       <timezone>America/New_York</timezone>
       <properties>
         <picUrl>https://avatars2.githubusercontent.com/u/9654?v=3&amp;s=150</picUrl>
-        <sonar.organization>compiler-ullman</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
       </properties>
     </developer>
   </developers>
@@ -113,6 +107,8 @@
   </issueManagement>
 
   <properties>
+    <sonar.organization>compiler-ullman</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <!-- Shared properties with plugins and version numbers across submodules-->
     <asciidoctorj.version>2.5.10</asciidoctorj.version>
     <!-- Upgrading needs UI work in WebWolf -->
