@@ -107,8 +107,6 @@
   </issueManagement>
 
   <properties>
-    <sonar.organization>compiler-ullman</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <!-- Shared properties with plugins and version numbers across submodules-->
     <asciidoctorj.version>2.5.10</asciidoctorj.version>
     <!-- Upgrading needs UI work in WebWolf -->
@@ -140,6 +138,8 @@
     <!-- Use UTF-8 Encoding -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <sonar.organization>compiler-ullman</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <thymeleaf.version>3.1.1.RELEASE</thymeleaf.version>
     <webdriver.version>5.3.3</webdriver.version>
     <webgoat.port>8080</webgoat.port>
