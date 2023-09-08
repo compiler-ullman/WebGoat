@@ -10,6 +10,7 @@ class AccessControlIntegrationTest extends IntegrationTest {
 
   @Test
   void testLesson() {
+      
     startLesson("MissingFunctionAC", true);
     assignment1();
     assignment2();
